@@ -1,0 +1,32 @@
+::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+  }
+
+.text2 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    padding-left: 550px;
+    font-family: Avenir;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("background.jpg");
+
+  height: 100%; 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.noselection{
+  user-select: none;
+}
+
